@@ -1,0 +1,286 @@
+#page-top {
+    background: url('../img/fishes.png') no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    font-style: italic;
+}
+#sideNav .navbar-nav .nav-item .nav-link{
+    font-weight:500;
+    text-transform:uppercase;
+    color: white;
+}
+#sideNav .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(0, 0, 36);
+    text-shadow: 2px 1px white;
+}
+#home, #goals, #contact {
+    background-color: rgb(0, 0, 36);
+    width: 48em;
+    height: 40em;
+}
+.textAnim1 {
+    margin-top: -5em;
+}
+.textAnim2 {
+    margin-top: -2.5em;
+}
+.textAnim3 {
+    margin-top: 0;
+}
+.textAnim4 {
+    margin-top: 2.5em;
+}
+.textAnim5 {
+    margin-top: 5em;
+}
+.text {
+    margin-top: 1em;
+    margin-left: -1em;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: -0.30em;
+}
+#becode {
+    width: 20em;
+    margin-top: 15em;
+    padding-left: 1.5em;
+}
+#becodeObject {
+    width: 5em;
+    height:auto;
+}
+.carre {
+    width: 1.6em;
+    height: 1.6em;
+    margin-bottom: 0.75em;
+}
+h2 {
+    color: rgb(0, 0, 36);
+    text-shadow: 1px 2px white;
+    font-size: 1.35em;
+    margin-top: .5em;
+    margin-left: 4.5em;
+}
+#objectifs, #contTitle {
+    color: white;
+    text-align: initial;
+    margin-left: 4.5em;
+    text-shadow: 1px 2px rgb(0, 0, 36);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: rgb(0, 0, 36);
+    text-shadow: 1px 1px white;
+}
+#skills{
+    margin-left: 2em;
+}
+h3 {
+    text-align: center;
+    font-size: 1.25em;
+    text-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 5px #5fc3d2;
+    padding: 1em;
+    color: white;
+}
+.object {
+    text-align: center;
+    color: white;
+    text-shadow: initial;
+}
+#objectContent {
+    width: 20em;
+}
+.form-group {
+    width: 15em;
+    margin-bottom: 0;
+    margin-left: 2em;
+    padding-top: 1em;
+}
+.btn {
+    margin-top: 2em;
+    margin-left: 2em;
+    background-color: #5fc3d2;
+    color: rgb(0, 0, 36);
+}
+#contTitle {
+    color: white;
+    text-align: initial;
+    margin-top: 1em;
+    margin-left: 4.5em;
+    text-shadow: 1px 2px rgb(0, 0, 36);
+}
+.projets {
+    text-transform: lowercase;
+    color: white;
+    text-shadow: 2px 1px rgb(0,0, 36);
+}
+#projets {
+    text-transform: lowercase;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 2px 1px rgb(0,0,36);
+}
+#foodog, #milocs, #photo {
+    margin-left: 3em;
+}
+
+legend {
+    text-transform: lowercase;
+    text-transform: capitalize;
+    font-size: 0.75em;
+    margin-left: 1em;
+    text-align: center;
+}
+#first {
+    margin-top: -2em;
+}
+#cours {
+    font-size:0.5em;
+    margin-left: 5.5em;
+    color: white;
+    text-shadow: 2px 1px rgb(0, 0, 36);
+}
+@media (min-width:640px) {
+    .textAnim1, .textAnim2, .textAnim3, .textAnim4, .textAnim5 {
+        font-size: 1.25em;
+        margin-left: 15em;
+    }
+    .textAnim1 {    
+        margin-top:-6em;
+    }
+    .textAnim2 {
+        margin-top: -4em;
+    }
+    .textAnim3 {
+        margin-top: -2em;
+    }
+    .textAnim4 {
+        margin-top: .5em;
+    }
+    .textAnim5 {
+        margin-top: 3em;
+    }
+    #becode {
+        margin-left: 17.5em;
+        margin-bottom: 4em;
+    }
+    .text {
+        font-size: 1.75em;
+        margin-left: 7.5em;
+        margin-top: -1.5em;
+        letter-spacing: -0.20em;
+    }
+    h2 {
+        margin-top: -2em;
+    }
+    #skills {
+        margin-left: 10em;
+    }
+    h3 {
+        font-size: 1.5em;
+        padding: 1.5em;
+    }
+    .object {
+        margin-left: 10em;
+        font-size: 1.75em;
+    }
+    .form-group {
+        width: 20em;
+        margin-left: 5em;
+    }
+    .btn {
+        margin-left: 5em;
+    }
+    #home, #goals, #contact {
+        width: 48em;
+        height: 48em;
+    }
+    
+    
+}
+@media (min-width: 641px) and (max-width: 991px) {
+    #home, #goals, #contact {
+        width: 61.875em;
+        height: 48em;
+    }
+    #capa, #skillProjet {
+        margin-left: 15em;
+    }
+    #first, #second, #third {
+        margin-left: 5em;
+        font-size: 1em;
+    }
+    #foodog, #milocs, #photo {
+        width: 15em;
+        height: 10em;
+    }
+    legend {
+        margin-left: 25em;
+        }
+    
+}
+
+@media (min-width:992px){
+    .textAnim1, .textAnim2, .textAnim3, .textAnim4, .textAnim5 {
+        font-size: 2em;
+    }
+    .textAnim1 {
+        margin-top: -4em;
+    }
+    .textAnim2 {
+        margin-top: -2em;
+    }
+    .textAnim3 {
+        margin-top: 0em;
+    }
+    .textAnim4 {
+        margin-top: 2em;
+    }
+    .textAnim5 {
+        margin-top: 4em;
+    }
+
+    #image {
+        margin-top: 8em;
+    }
+    #becode {
+        margin-left: 28em;
+        width: 30em;
+    }
+    .text {
+        font-size: 2em;
+        margin-left: 12.5em;
+    }
+    .nav-item {
+        font-size: 1.5em;
+        text-shadow: 1px 2px gray;
+    }
+    h2 {
+        margin-top: -5em;
+    }
+    #skills {
+        margin-left: 12.5em;
+    }
+    .carre {
+        width: 2em;
+        height: 2em;
+        margin-bottom: 0.75em;
+    }
+    p {
+        margin-bottom: 1.2rem;
+        font-size: 1.5em;
+    }
+    #capa {
+        margin-top: -7.5em;
+        font-size: 2em;
+        padding: 1em;
+    }
+
+}
