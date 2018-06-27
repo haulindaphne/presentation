@@ -228,20 +228,26 @@ if($_POST)
         <div class="my-auto">
           <h2 class="mb-5" id="skillProjet">Projets</h2>
           <div class="subheading mb-3">
-            <fieldset>
-              <legend id="first">Refonte site "Foodog" - Exercice WORDPRESS</legend>
-                <a href="http://leersmathieu.com/becode/MADS-foodog/wordpress/"><img id="foodog" src="img/foodog.png" width="200" height="100"></a>
-            </fieldset>
-            <fieldset>
-              <legend id="second">Refonte site "Mission Locale Schaerbeek" - Exercice BOOTSTRAP</legend>
-                <a href=""><img id="milocs" src="img/milocs.png" width="200" height="100"></a>
-                <p id="cours">En cours</p>
-            </fieldset>
-            <fieldset>
-              <legend id="third">Refonte site "Musée de la Photographie" de Mont-sur-Marchienne</legend>
-                <a href="http://www.museephoto.be/"><img id="milocs" src="img/photo.png" width="200" height="100"></a>
-                <p id="cours">En cours</p>
-            </fieldset>
+            <div class="portfolio folio1">
+              <a href="http://leersmathieu.com/becode/MADS-foodog/wordpress/"><img id="foodog" src="img/foodog.png" width="200" height="100"></a>
+            </div>
+            <div class="portfolioTitle">
+              <p id="first">Refonte site "Foodog"<br />Exercice WORDPRESS</p>
+            </div>
+            <div class="portfolio folio2">
+              <a href=""><img id="milocs" src="img/milocs.png" width="200" height="100"></a>
+            </div>
+            <div class="portfolioTitle">
+              <p id="second">Refonte site "Mission Locale Schaerbeek"<br />Exercice BOOTSTRAP</p>
+              <p id="cours">En cours</p>
+            </div>
+            <div class="portfolio folio3">
+              <a href="http://www.museephoto.be/"><img id="photo" src="img/photo.png" width="200" height="100"></a>
+            </div>
+            <div class="portfolioTitle">
+              <p id="third">Refonte site "Musée de la Photographie"<br />Mont-sur-Marchienne</p>
+              <p id="cours">En cours</p>
+            </div>
           </div>
         </div>
       </section>
@@ -252,39 +258,37 @@ if($_POST)
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto" id="objectContent">
-            <h3 class="mb-0">De la formation à l'entreprise</h3>
+            <h3 id="objectifTitle" class="mb-0">De la formation à l'entreprise</h3>
             <p class="object">Parfaire les connaissances acquises pendant la formation
             <img id="becodeObject" src="img/becode.png">.</p>
-            <p class="object">Continuez à apprendre des nouveaux langages(nodejs, Angular, ...).</p>
+            <p class="object">Continuez à apprendre des nouveaux langages notamment ceux utilisez en entreprise.</p>
             <p class="object">Effectuer un stage orienté Front-end.</p>
             <p class="object">Partagez ma créativité.</p>
-          </div>
-          <div class="resume-date text-md-right">
           </div>
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="who">
         <div class="my-auto">
-            <h2 class="mb-5">About me</h2>
+            <h2 id="about" class="mb-5">About me</h2>
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
+            <div id="aboutText" class="resume-content mr-auto">
               <p>Etre Junior Web Developer, c'est relever des défis tous les jours. Depuis janvier 2018, c'est devenu mon quotidien. <br /><br />
                 Après plus de 10ans dans le secteur touristique, j'ai entamé une reconversion professionnelle et trouvé ma voie dans le secteur digital.<br /><br />
                 Aujourd'hui je recherche un stage de 1 à 3 mois pour continuer sur ma lancée et non terminer ma formation ; celle-ci ne finissant jamais...</p>
             </div>
             <p>&nbsp;</p>
-            <div class="resume-date text-md-right">
+            <div id="listing" class="resume-item d-flex flex-column flex-md-row mb-5">
 
             <ul class="list-inline list-icons">
               <li class="list-inline-item">
-                <a href="https://github.com/haulindaphne"><img src="img/github-logo.png" width="60" height="60"/></a>
+                <a href="https://github.com/haulindaphne"><img id="linkGit" src="img/github-logo.png" width="60" height="60"/></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://twitter.com/haulindafke"><img src="img/logo-twitter.png" height="50"/></a>
+                <a href="https://twitter.com/haulindafke"><img class="links" src="img/logo-twitter.png" height="50"/></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/daphnehaulin/"><img src="img/linkedin-logo.png" height="50"/></a>
+                <a href="https://www.linkedin.com/in/daphnehaulin/"><img class="links" src="img/linkedin-logo.png" height="50"/></a>
               </li>
             </ul>
            </div>
@@ -298,15 +302,19 @@ if($_POST)
 
           <form>
             <div class="form-group">
+              <label for="nom">Votre nom: </label>
               <input type="text" class="form-control" id="exampleInputlastName1" name="nom" aria-describedby="lastNameHelp" placeholder="Entrez votre nom">
             </div>
             <div class="form-group">
+              <label for="nom">Votre société: </label>
               <input type="text" class="form-control" id="exampleInputFirstName1" name="society" aria-describedby="firstNameHelp" placeholder="Nom de votre société">
             </div>
             <div class="form-group">
+              <label for="nom">Votre email: </label>
               <input type="email" class="form-control" id="exampleInputMail1" name="mail" aria-describedby="mailHelp" placeholder="Entrez votre e-mail">
             </div>
             <div class="form-group">
+              <label for="nom">Votre message: </label>
               <textarea type="text" class="form-control" id="exampleInputMessage1" name="message" aria-describedby="messageHelp" placeholder="Laissez votre message"></textarea>
             </div>
             <button type="submit" class="btn button-submit" name="send">Envoyer</button>
@@ -321,9 +329,28 @@ if($_POST)
                 mail("$destinaire", "$sujet", "$form_mail", "From: $mail");
             }
         ?>
+          <div class="footer">
+            <div id="listingContact" class="resume-item d-flex flex-column flex-md-row mb-5">
+              <ul class="list-inline list-icons">
+                <li class="list-inline-item">
+                  <a href="https://github.com/haulindaphne"><img id="footGit" src="img/github-logo.png" width="30" height="30"/></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/haulindafke"><img class="footImg" src="img/logo-twitter.png" height="25"/></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/daphnehaulin/"><img class="footImg" src="img/linkedin-logo.png" height="25"/></a>
+                </li>
+                <li id="address" class="list-inline-item">&#9993;     haulindaphne@gmail.com<br/>&#9743;     0485/651552</li>
+              </ul>
+            </div>
+
+            <span></span>
+          </div>
 
         </div>
       </section>
+      
 
 
     </div>

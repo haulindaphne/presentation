@@ -50,7 +50,7 @@ text();
 
 let carre = [].slice.call(document.querySelectorAll('.carre'));
 
-let timer = setInterval(coche, 10000); 
+let timer = setInterval(coche, 5000); 
 
 function coche() {
     for (let i = 0; i < carre.length; i++){

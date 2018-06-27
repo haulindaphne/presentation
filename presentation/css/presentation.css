@@ -1,3 +1,6 @@
+* {
+    font-style: italic;
+}
 #page-top {
     background: url('../img/fishes.png') no-repeat center fixed;
     -webkit-background-size: cover;
@@ -5,10 +8,6 @@
     display: block;
     width: 100%;
     height: 100%;
-}
-
-* {
-    font-style: italic;
 }
 #sideNav .navbar-nav .nav-item .nav-link{
     font-weight:500;
@@ -23,6 +22,9 @@
     background-color: rgb(0, 0, 36);
     width: 48em;
     height: 40em;
+}
+#contact {
+    height: 50em;
 }
 .textAnim1 {
     margin-top: -5em;
@@ -59,6 +61,7 @@
     width: 1.6em;
     height: 1.6em;
     margin-bottom: 0.75em;
+    margin-right: 1em;
 }
 h2 {
     color: rgb(0, 0, 36);
@@ -116,6 +119,9 @@ h3 {
     margin-left: 4.5em;
     text-shadow: 1px 2px rgb(0, 0, 36);
 }
+#becodeObject {
+    margin-top: -0.3em;
+}
 .projets {
     text-transform: lowercase;
     color: white;
@@ -130,27 +136,54 @@ h3 {
 #foodog, #milocs, #photo {
     margin-left: 3em;
 }
-
-legend {
-    text-transform: lowercase;
-    text-transform: capitalize;
-    font-size: 0.75em;
-    margin-left: 1em;
+#milocs {
+    margin-top: 1em;
+}
+#photo {
+    margin-top: 1em;
+}
+.portfolio {
+    margin-top: -1em;
+}
+.portfolioTitle {
+    margin-top: 2em;
+    margin-left: 1.25em;
     text-align: center;
 }
-#first {
+#first, #second, #third {
     margin-top: -2em;
+    font-size: 0.75em;
+    text-transform: lowercase;
+    text-transform: capitalize;
 }
 #cours {
     font-size:0.5em;
+    font-weight: 600;
     margin-left: 5.5em;
+    margin-top: -1em;
+    color: red;
+    text-shadow: 2px 1px rgb(0, 0, 36) 1px 2px white;
+}
+.footer {
+    height: 100px;
+    bottom: 0;
+    width: 48em;
+    background-color: rgb(0, 0, 36);
+    margin-top: 6em;
+    margin-left: -2em;
     color: white;
-    text-shadow: 2px 1px rgb(0, 0, 36);
+}
+.listingContact {
+    margin-left: -2.5em;
+}
+#address {
+    color: white;
+    font-size: 0.2em;
 }
 @media (min-width:640px) {
     .textAnim1, .textAnim2, .textAnim3, .textAnim4, .textAnim5 {
         font-size: 1.25em;
-        margin-left: 15em;
+        margin-left: 10em;
     }
     .textAnim1 {    
         margin-top:-6em;
@@ -168,20 +201,24 @@ legend {
         margin-top: 3em;
     }
     #becode {
-        margin-left: 17.5em;
+        margin-left: 12em;
         margin-bottom: 4em;
     }
     .text {
         font-size: 1.75em;
-        margin-left: 7.5em;
+        margin-left: 2.5em;
         margin-top: -1.5em;
         letter-spacing: -0.20em;
     }
-    h2 {
-        margin-top: -2em;
+    #capa {
+        margin-top: 1em;
+        margin-left: 8em;
     }
     #skills {
-        margin-left: 10em;
+        margin-left: 5em;
+    }
+    #skillProjet {
+        margin-left: 12em;
     }
     h3 {
         font-size: 1.5em;
@@ -191,45 +228,186 @@ legend {
         margin-left: 10em;
         font-size: 1.75em;
     }
+    #foodog {
+        height: 150px;
+    }
+    #first {
+        font-size: 1em;
+        margin-left: 8em;
+        margin-top: -7em;
+    }
+    #milocs {
+        margin-top: 4em;
+        height: 150px;
+    }
+    #second {
+        font-size: 1em;
+        margin-left: 11em;
+        margin-top: -8em;
+    }
+    #photo {
+        margin-top: 2.5em;
+        height: 150px;
+    }
+    #third {
+        font-size: 1em;
+        margin-left: 11em;
+        margin-top: -8em;
+    }
+    #objectifs {
+        margin-left: 10em;
+    }
+    #objectifTitle {
+        width: 30em;
+        margin-left: -2.5em;
+    }
+    .object {
+        margin-left: 1em;
+        width: 20em;
+    }
+    #about {
+        margin-left: 10em;
+    }
+    #aboutText {
+        margin-left: 2em;
+    }
+    #listing {
+        margin-top: 8em;
+        margin-left: 10em;
+    }
+    #contTitle {
+        margin-left: 12em;
+    }
     .form-group {
         width: 20em;
-        margin-left: 5em;
+        margin-left: 10em;
     }
     .btn {
-        margin-left: 5em;
+        margin-left: 10em;
     }
     #home, #goals, #contact {
         width: 48em;
         height: 48em;
     }
-    
-    
 }
 @media (min-width: 641px) and (max-width: 991px) {
+    .textAnim1, .textAnim2, .textAnim3, .textAnim4, .textAnim5 {
+        margin-left: 20em;
+    }
+    #becode {
+        margin-left: 25em;
+    }
+    #text {
+        margin-left: 11em;
+    }
     #home, #goals, #contact {
         width: 61.875em;
         height: 48em;
     }
-    #capa, #skillProjet {
-        margin-left: 15em;
+    #contact {
+        height: 56em;
     }
-    #first, #second, #third {
-        margin-left: 5em;
-        font-size: 1em;
+    #capa {
+        margin-left: 9em;
+        font-size: 2em;
+    }
+    #skillProjet {
+        margin-left: 12em;
+        font-size: 2em;
+    }
+    #skills {
+        margin-left: 12em;
+    }
+    #skillProjet {
+        margin-top: 0.5em;
     }
     #foodog, #milocs, #photo {
         width: 15em;
         height: 10em;
     }
-    legend {
-        margin-left: 25em;
-        }
-    
+    .folio2 {
+        margin-top: 2em;
+    } 
+    .folio3 {
+        margin-top: 1.5em;
+    }
+    #first {
+        margin-top: -7.5em;
+        margin-left:8em;
+        font-size: 1.25em;
+    } 
+    #second {
+        margin-top: -8em;
+        margin-left: 15em;
+        font-size: 1.25em;
+        text-align: initial;
+    } 
+    #third {
+        font-size: 1.25em;
+        margin-left: 12em;
+        margin-right: 2em;
+        margin-top: -8em;
+    }  
+    #objectifs {
+        margin-top: 2em;
+        margin-left: 17.5em;
+    }
+    #objectContent {
+        width: 40em;
+    }
+    #objectifTitle {
+        margin-left: 5em;
+        width: 30em;
+    }
+    .object {
+        width: 30em;
+        margin-left: 1.5em;
+    }
+    #about {
+        margin-top: 1em;
+        margin-left: 17.5em;
+    }
+    #listing {
+        margin-top: 30em;
+        margin-left: -35em;
+        width: 40em;
+    }
+    #aboutText {
+        margin-left: 10em;
+        padding-right: 5em;
+        font-size: 1.25em;
+    }
+    #contTitle {
+        margin-left: 12.5em;
+        font-size: 2em;
+    }
+    .form-group {
+        width: 30em;
+        margin-left: 15em;
+        margin-bottom: 1em;
+    }
+    .btn {
+        margin-left: 15em;
+    }
+    #listingContact {
+        margin-left: 20em;
+    }
+    #address {
+        font-size: 0.3em;
+    }
 }
 
 @media (min-width:992px){
+    #home, #goals, #contact {
+        width: 100%;
+        height: 48em;
+    }
+    #contact {
+        height: 60em;
+    }
     .textAnim1, .textAnim2, .textAnim3, .textAnim4, .textAnim5 {
         font-size: 2em;
+        margin-left: 18em;
     }
     .textAnim1 {
         margin-top: -4em;
@@ -246,9 +424,9 @@ legend {
     .textAnim5 {
         margin-top: 4em;
     }
-
     #image {
-        margin-top: 8em;
+        margin-top: 9em;
+        margin-left: 6em;
     }
     #becode {
         margin-left: 28em;
@@ -256,7 +434,7 @@ legend {
     }
     .text {
         font-size: 2em;
-        margin-left: 12.5em;
+        margin-left: 15em;
     }
     .nav-item {
         font-size: 1.5em;
@@ -264,6 +442,7 @@ legend {
     }
     h2 {
         margin-top: -5em;
+        text-decoration: underline;
     }
     #skills {
         margin-left: 12.5em;
@@ -282,5 +461,106 @@ legend {
         font-size: 2em;
         padding: 1em;
     }
-
+    #skillProjet {
+        margin-left: 20em;
+        margin-top: -2em;
+        font-size: 2em;
+        text-decoration: underline;
+    }
+    #foodog, #milocs, #photo {
+        width: 400px;
+        height: 250px;
+    }
+    #milocs {
+        margin-top: 5em;
+    }
+    #photo {
+        margin-top: 5em;
+    }
+    #first, #second, #third {
+        font-size: 1.5em;
+        text-align: initial;
+        margin-left: 15em;
+    }
+    #cours {
+        font-size: 1em;
+    }
+    #objectifs {
+        font-size: 2em;
+        margin-left: 20em;
+        text-decoration: underline;
+    }
+    #objectContent {
+        margin-left: 20em;
+        width: 80em;
+        font-size: 1.25em;
+    }
+    #becodeObject {
+        margin-top: -0.3em;
+    }
+    #about {
+        font-size: 2em;
+        margin-left: 20em;
+        margin-top: 1em;
+        text-decoration: underline;
+    }
+    #aboutText {
+        margin-left: 10em;
+        text-align: center;
+    }
+    #listing {
+        margin-top: 40em;
+        margin-left: -80em;
+        width: 40em;
+    }
+    #linkGit {
+        width: 120px;
+        height: 120px;
+    }
+    .links {
+        width: 100px;
+        height: 100px;
+    }
+    #contTitle {
+        font-size: 2em;
+        margin-left: 20em;
+        text-decoration: underline;
+    }
+    label {
+        color: white;
+        font-size: 1.25em;
+    }
+    .form-group {
+        width: 30em;
+        margin-left: 30em;
+    }
+    .btn {
+        margin-left: 30em;
+    }
+    #listingContact {
+        margin-left: 30em;
+        margin-top: 12em;
+        width: 80em;
+    }
+    #footGit {
+        width: 80px;
+        height: 80px;
+    }
+    .footImg {
+        width: 60px;
+        height: 60px;
+    }
+    #address {
+        font-size: 0.4em;
+    }
+    form .form-control::-moz-placeholder {
+        color: #fff;
+        opacity: 1;
+    }
+    form .form-control:-ms-input-placeholder {
+        color: #fff;
+    }
+    form .form-control::-webkit-input-placeholder {
+        color: #fff;
+    }
 }
