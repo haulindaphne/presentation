@@ -1,6 +1,13 @@
 # Presentation cv - web
 
 Fichier réalisé sur base d'un template Bootstrap.
+
+Afin de présenter les différents langages découvert lors de la formation <div><img src='https://github.com/haulindaphne/presentation/blob/master/presentation/img/becode.png' width="30" height="15" ></div>
+aux futurs recruteurs et employeurs.
+
+Cette formation a commencé le 23 janvier 2018 et aujourd'hui, 4 mois plus tard, je peux proposer ce travail.
+Bien que j'aie utilisé une base de template, j'ai modifié une grande partie de l'HTML pour le faire coller au projet que je voulais finalisé.
+
 J'ai intégrer:
 <ul>
   <li>des animations Javascript</li>
