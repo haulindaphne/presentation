@@ -16,10 +16,16 @@ J'ai intégrer:
  <ul>
   <li>Version Smartphone
   <div style="display:inline;">
-   <img src ='https://github.com/haulindaphne/presentation/blob/master/presentation/img/screenshots/smart.png' width="33%" height="200" >
+   <img src ='https://github.com/haulindaphne/presentation/blob/master/presentation/img/screenshots/smart.png' width="50" height="200" >
     </div>
   </li>
 
-  <li>Version Tablette</li>
-  <li>Version PC</li>
+  <li>Version Tablette
+  <div style="display:inline;">
+   <img src ='https://github.com/haulindaphne/presentation/blob/master/presentation/img/screenshots/tablette.png' width="150" height="100" >
+    </div></li>
+  <li>Version PC
+<div style="display:inline;">
+   <img src ='https://github.com/haulindaphne/presentation/blob/master/presentation/img/screenshots/pc.png' width="300" height="200" >
+    </div></li>
  <ul>
