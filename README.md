@@ -14,7 +14,12 @@ J'ai intégrer:
  
  Printscreen du projet:
  <ul>
-  <li>Version Smartphone</li>
+  <li>Version Smartphone
+  <div style="display:inline;">
+   <img src ='https://github.com/haulindaphne/MADS-foodog/blob/master/foodog.png' width="33%" height="200" >
+    </div>
+  </li>
+
   <li>Version Tablette</li>
   <li>Version PC</li>
  <ul>
