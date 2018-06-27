@@ -17,7 +17,7 @@ J'ai intégrer:
   <li>du Jquery</li>
  </ul>
  
- Le background-image est une oeuvre originale réalisée au paster par Olin (c'est-à-dire Haulin Daphné) sur laquelle j'ai appliqué un filtre d'opacité en Photoshop.
+ Le background-image est une oeuvre originale réalisée au pastel par "Olin" (c'est-à-dire Haulin Daphné) sur laquelle j'ai appliqué un filtre d'opacité en Photoshop.
  
  Printscreen du projet:
  <ul>
