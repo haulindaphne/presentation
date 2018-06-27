@@ -16,7 +16,7 @@ J'ai intégrer:
  <ul>
   <li>Version Smartphone
   <div style="display:inline;">
-   <img src ='https://github.com/haulindaphne/presentation/blob/master/presentation/img/screenshots/smart.png' width="50" height="200" >
+   <img src ='https://github.com/haulindaphne/presentation/blob/master/presentation/img/screenshots/smart.png' width="100" height="200" >
     </div>
   </li>
 
