@@ -1,8 +1,9 @@
 <?php
-
+/**
+ * CONFIGURATION
+ */
 $destinaire = 'haulindaphne@gmail.com';
-$sujet = "Demande de stage";
-
+$sujet = 'Demande de stage';
     
 if($_POST)
 {  
@@ -16,13 +17,13 @@ if($_POST)
     if(!empty($_POST['society']) AND !empty($_POST['nom']) AND !empty($_POST['mail'])) {
         extract($_POST);
 
-        header("Location: /Presentation-cv/thanks.php");
+        header("Location: /presentation/presentation/thanks.php");
     }
     else 
     {
         echo "Merci de remplir les champs du formulaire!";
     }
-}
+  }
 ?>
 
 <!DOCTYPE html>
@@ -275,7 +276,7 @@ if($_POST)
             <div id="aboutText" class="resume-content mr-auto">
               <p>Etre Junior Web Developer, c'est relever des défis tous les jours. Depuis janvier 2018, c'est devenu mon quotidien. <br /><br />
                 Après plus de 10ans dans le secteur touristique, j'ai entamé une reconversion professionnelle et trouvé ma voie dans le secteur digital.<br /><br />
-                Aujourd'hui je recherche un stage de 1 à 3 mois pour continuer sur ma lancée et non terminer ma formation ; celle-ci ne finissant jamais...</p>
+                Aujourd'hui je recherche un stage de 1 à 3 mois pour continuer sur ma lancée et non terminer ma formation<br />...celle-ci ne finissant jamais...</p>
             </div>
             <p>&nbsp;</p>
             <div id="listing" class="resume-item d-flex flex-column flex-md-row mb-5">
@@ -300,21 +301,22 @@ if($_POST)
         <div class="my-auto">
           <h2 class="mb-5" id="contTitle">Contact</h2>
 
-          <form>
+          <form id="contact-form" method="post" action="index.php" role="form">
             <div class="form-group">
               <label for="nom">Votre nom: </label>
               <input type="text" class="form-control" id="exampleInputlastName1" name="nom" aria-describedby="lastNameHelp" placeholder="Entrez votre nom">
+              <div class="help-block with-errors" style="color:red"></div>
             </div>
             <div class="form-group">
-              <label for="nom">Votre société: </label>
+              <label for="society">Votre société: </label>
               <input type="text" class="form-control" id="exampleInputFirstName1" name="society" aria-describedby="firstNameHelp" placeholder="Nom de votre société">
             </div>
             <div class="form-group">
-              <label for="nom">Votre email: </label>
+              <label for="email">Votre email: </label>
               <input type="email" class="form-control" id="exampleInputMail1" name="mail" aria-describedby="mailHelp" placeholder="Entrez votre e-mail">
             </div>
             <div class="form-group">
-              <label for="nom">Votre message: </label>
+              <label for="message">Votre message: </label>
               <textarea type="text" class="form-control" id="exampleInputMessage1" name="message" aria-describedby="messageHelp" placeholder="Laissez votre message"></textarea>
             </div>
             <button type="submit" class="btn button-submit" name="send">Envoyer</button>
@@ -365,6 +367,7 @@ if($_POST)
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="contact.js"></script>
 
   </body>
 
